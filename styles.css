@@ -12,19 +12,19 @@
     display: block;
 }
 .box-one {
-    height: 600px;
+    height: 500px;
     min-width: 500px;
-    margin:20 0 20 0;
+    margin:10 0 10 0;
 }
 .box-two {
-    height: 600px;
+    height: 400px;
     min-width: 500px;
-    margin:20 0 20 0;
+    margin:10 0 10 0;
 }
 .box-three {
-    height: 600px;
+    height: 400px;
     min-width: 500px;
-    margin:20 0 20 0;
+    margin:10 0 10 0;
 }
 nav ul {
     display: flex;
@@ -35,14 +35,16 @@ nav li {
 }
 nav {
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(217, 212, 212);
+    height: 50px;
   }
-  nav a{
+  nav h1 {
     text-decoration: none;
     text-align: center;
-    color: #fff;
+    color: black;
     display: block;
     padding: 10px;
+    font-family: sans-serif;
   }
   
   nav a:hover{
@@ -50,12 +52,11 @@ nav {
   }
   .instagram-post {
     background: white;
-    height: 600px;
+    height: 500px;
     width: 500px;
     margin: auto;
     margin-top: 30px;
     border-color: black;
-    border-radius: 5%;
 }
 #logo {
     max-width: 30px;
